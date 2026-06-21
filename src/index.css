@@ -10,8 +10,8 @@ body {
 
   /* Color principal de las letras en el Navbar */
 .navbar-nav .nav-link {
-  color: #000000 !important; /* Cambia este código hexadecimal por el color que prefieras */
+  color: #050095 !important;
 }
 
-  background-image: linear-gradient(to left, rgb(236, 217, 177), rgb(236, 217, 177));
+  background-image: linear-gradient(to left, rgb(255, 203, 153), rgb(255, 203, 153));
 }
