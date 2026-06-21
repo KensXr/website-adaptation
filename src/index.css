@@ -7,5 +7,11 @@ body {
   font-family: "PT Mono", monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+
+  /* Color principal de las letras en el Navbar */
+.navbar-nav .nav-link {
+  color: #000000 !important; /* Cambia este código hexadecimal por el color que prefieras */
+}
+
+  background-image: linear-gradient(to left, rgb(236, 217, 177), rgb(236, 217, 177));
 }
