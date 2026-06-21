@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatarBuenVecino.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -10,27 +10,27 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              DEJAME  <span className="purple"> PRESENTARME </span> MEJOR
+              DEJANOS  <span className="purple"> PRESENTARNOS </span> MEJOR
             </h1>
             <p className="home-about-body">
-              Soy un ingeniero en progreso osiosi
+              Somos una plataforma de apoyo a personas en situacion de calle que no tienen las posibilidades de adquirir alimentos.
               <br />
               <br />
-              Tengo conocimiento en lenguajes como:
+              Actualmente estamos disponibles en
               <i>
                 <b className="purple">
                   {" "}
-                  Java, C++, y Python{" "}
+                  La Piedad, Michoacan{" "}
                 </b>
               </i>
-              — y adoro trabajar de Backend
+              .
               <br />
               <br />
-              Las areas en las que me quiero desarrollar son 
+              Trabajamos por un futuro 
               <i>
                 <b className="purple">
                   {" "}
-                  Inteligencia Artificial{" "}
+                  SIN HAMBRE{" "}
                 </b>
               </i>
               <br />
@@ -39,7 +39,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid rounded" alt="avatar"/>
             </Tilt>
           </Col>
         </Row>
