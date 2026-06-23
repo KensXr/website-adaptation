@@ -11,34 +11,19 @@ function AboutCard() {
             Hola a todos! Somos una<span className="purple"> iniciativa comunitaria</span>{" "}
             de <span className="purple">La Piedad Michoacan, Mexico</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Nuestro objetivo es transformar los barrios en {" "}
+            <span className="purple">comunidades activas</span>{" "} donde el intercambio de favores y el conocimiento local sea la norma, no la excepción.
+
             <br />
-            <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            Buscamos reducir la hambre urbana mediante herramientas tecnológicas que fomenten la seguridad participativa, el comercio de cercano y el voluntariado. 
+            Queremos que cada habitante se convierta en un pilar fundamental de su entorno social.
           </p>
 
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Tu colaboracion es nuestra fuerza: Juntos construimos una mundo más próspero y sin hambre"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">El Buen Vecino</footer>
         </blockquote>
       </Card.Body>
     </Card>
