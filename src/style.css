@@ -453,8 +453,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background: linear-gradient(180deg, #0B0E14 0%, #1e3a8a 50%, #0f766e 100%);
-  color: white;
+  background: linear-gradient(180deg, #FFCB99 0%, #E68A69 50%, #8C4A32 100%) !important;
 }
 
 .project-card {
@@ -466,12 +465,15 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4) !important;
   color: white !important;
-  background-color: transparent !important;
-  opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
+  background-color: rgba(40, 20, 15, 0.85) !important;
+  backdrop-filter: blur(10px) !important;
+  transition: all 0.4s ease-in-out !important;
   height: 100% !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(255, 203, 153, 0.4) !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -538,10 +540,10 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  color: #2b160a !important;
 }
 
 /* --------- */
